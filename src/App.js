@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+function App() {
+  return (
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#publications">Publications</a>
+      <a href="#CV">CV</a>s
+    </div>
+  );
+}
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +33,19 @@ function App() {
     </div>
   );
 }
+*/
+
+
+/*
+function App() {
+  return (
+    <div classname="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#publications">Publications</a>
+      <a href="#CV">CV</a>
+    </div>
+  );
+}
+*/
 
 export default App;
