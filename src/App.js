@@ -7,7 +7,8 @@ function App() {
     <div class="topnav" id="myTopnav">
       <a href="#home" class="active">Home</a>
       <a href="#publications">Publications</a>
-      <a href="#CV">CV</a>s
+      <a href="#CV">CV</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
   );
 }
